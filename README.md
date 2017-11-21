@@ -1,9 +1,9 @@
 # GPPMPaper
-This is the supplement for XXX. It entails the code for all figures as well as the demonstrations of equivalences mentioned in the paper. 
+This is supplement entails the code for all figures as well as the demonstrations of equivalences mentioned in the XXX paper. 
 
 
 # Figures
-The code for the figures is in the [figures/code](figures/code) folder. Call [makeAllFigures.m](figures/code/makeAllFigures.m) for redrawing all plots. When this if done in the [figures/code](figures/code) folder, the plots are saved in [figures/code](figures/render).
+The code for the figures is in the [figures/code](figures/code) folder. Call [makeAllFigures.m](figures/code/makeAllFigures.m) for redrawing all plots. Note that this takes a few minutes. When this is done in the [figures/code](figures/code) folder, the plots are saved in [figures/code](figures/render).
 
 
 Prerequesites: The Matlab implementation of GPPM is required (klick [here](https://github.com/karchjd/GPPMM/))
