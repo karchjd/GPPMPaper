@@ -22,7 +22,7 @@ The code demonstrating that the GPPM solutions are equivalent to those obtained 
 The [R implementation](https://github.com/karchjd/gppmr/) of GPPM is required. To install the version we used for creating these examples, simply run the follwing command in R (requires [devtools](https://cran.r-project.org/web/packages/devtools/index.html) packages)
 
 ```re
-> devtools::install_git('https://github.com/karchjd/gppmr',ref='0.1.1')
+> devtools::install_github("karchjd/gppmr@v0.1.1")
 ```
 
 # Equivalences Splines
