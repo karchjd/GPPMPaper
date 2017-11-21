@@ -28,5 +28,5 @@ gpModel <- gppModel('b0/(1-b1)','b1^(abs(t-t!))*sigma/(1-b1^2)',myData)
 gpModel <- gppFit(gpModel)
 
 ##check results
-arSame <- all.equal(gpModelFit$mlParas,omxGetParameters(semModel)[names(gpModelFit$mlParas)],check.attributes=FALSE,tolerance=0.0001)
+arSame <- all.equal(gpModel$mlParas,omxGetParameters(semModel)[names(gpModel$mlParas)],check.attributes=FALSE,tolerance=0.0001)
 message(sprintf('Estimated parameters for the AR(1) model are the same: %s',arSame))
