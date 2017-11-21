@@ -45,6 +45,6 @@ for i=1:numel(examplePers)
     splineAes;
 end
 h = legend([trueH,spline,squared,ar1],{'true','spline','squared exponential','AR(1)'});
-set(h,'Position', [0.515 0.925 0 0],'Units', newUnits);
+set(h,'Position', [0.515 0.925 0 0],'Units', 'normalized');
 set(gcf, 'Color', 'w');
 export_fig ../render/04_arVSSplineVsExp.pdf -painters

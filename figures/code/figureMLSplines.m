@@ -18,7 +18,7 @@ for i=1:numel(examplePers)
     splineAes;
 end
 h=legend({'true','spline'});
-set(h,'Position', [0.5 0.04 0 0],'Units', newUnits);
+set(h,'Position', [0.5 0.04 0 0],'Units', 'normalized');
 set(gcf, 'Color', 'w');
 export_fig ../render/03_MLSplines.pdf -painters
     
