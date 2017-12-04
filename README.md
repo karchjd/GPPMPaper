@@ -1,12 +1,12 @@
 # GPPMPaper
-This is supplement entails the code for all figures as well as the demonstrations of equivalences mentioned in the *Gaussian Process Panel Modeling – Kernel-Based Longitudinal Modeling* paper. 
+This supplement entails the code for all figures as well as the demonstrations of equivalences mentioned in the *Gaussian Process Panel Modeling – Kernel-Based Longitudinal Modeling* paper. 
 
 
 # Figures
-The code for the figures is in the [figures/code](figures/code) folder. Call [makeAllFigures.m](figures/code/makeAllFigures.m) for redrawing all plots. Note that this takes a few minutes. When this is done in the [figures/code](figures/code) folder, the plots are saved in [figures/render](figures/render).
+The code for the figures is in the [figures/code](figures/code) folder. Call [makeAllFigures.m](figures/code/makeAllFigures.m) for redrawing all plots. Note that this may take a few minutes. When this is done in the [figures/code](figures/code) folder, the plots are saved in [figures/render](figures/render).
 
 ## <a name="premat"></a> Prerequesites
-The [Matlab implementation](https://github.com/karchjd/GPPMM/) of GPPM is required. To download the version we used to create the figures, klick [here](https://github.com/karchjd/GPPMM/releases/tag/0.1.0). After unzipping the archive, all the needs to be done is to ensure that the main folder including all its subfolders is included in you Matlab path. This can be achived running
+The [Matlab implementation](https://github.com/karchjd/GPPMM/) of GPPM is required. To download the version we used to create the figures, klick [here](https://github.com/karchjd/GPPMM/releases/tag/0.1.0). After unzipping the archive, all the needs to be done is to ensure that the main folder including all its subfolders is included in you Matlab path. This can be achieved running
 
 ```matlab
 >> addpath(genpath('main/'))
